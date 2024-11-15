@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.email-form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.email-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.email-form label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.email-form input,
+.email-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.email-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.email-form button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.email-form button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}
